@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to WhiXard's Portfolio
+          Welcome to WhiXard&apos;s Portfolio
         </h1>
 
         <p className={styles.description}>
@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://t.me/WhiXard" className={styles.card}>
             <h2>Telegram &rarr;</h2>
-            <p>This is my Telegram contact, i'm PM friendly so poke me if you want</p>
+            <p>This is my Telegram contact, i&apos;m PM friendly so poke me if you want</p>
           </a>
 
           <a href="https://jellyfin.buffolollo.it" className={styles.card}>

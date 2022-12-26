@@ -3,6 +3,10 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import path from 'path';
 import { promises as fs } from 'fs';
 
+export const config = {
+    runtime: 'experimental-edge',
+}
+
 export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse

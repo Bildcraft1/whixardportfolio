@@ -50,6 +50,18 @@ export default function Home() {
               Another website i made using Next.Js and TailwandCSS
             </p>
           </a>
+
+          <a
+            href="/api/gpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.card}
+          >
+            <h2>GPG Key &rarr;</h2>
+            <p>
+              Here you can find my GPG key that i use for mails and commits
+            </p>
+          </a>
         </div>
       </main>
 
